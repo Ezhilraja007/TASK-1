@@ -3,7 +3,9 @@
     padding: 0;
    
 }
-    
+body{
+    overflow-x:hidden;
+}
 .raj{
     text-align:center;
     padding-top: 15px;
@@ -72,11 +74,10 @@ a{
 }
 .nav1 ul{
     display:flex;
-    width: 100%;
+    width: 80%;
     list-style-type: none;
-    justify-content: space-between;
-    margin-right: 20%;
-    margin-left:15%;
+    justify-content: space-evenly;
+   margin:auto;
     
 }
 .nav1 ul #a{
@@ -84,6 +85,7 @@ a{
 }
 .nav1{
     padding:1%;
+    width:100%;
 }
 .ri{
    padding-left:150px;
