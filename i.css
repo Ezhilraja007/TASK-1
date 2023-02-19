@@ -72,6 +72,7 @@ a{
 }
 .nav1 ul{
     display:flex;
+    width: 100%;
     list-style-type: none;
     justify-content: space-between;
     margin-right: 20%;
@@ -86,25 +87,37 @@ a{
 }
 .ri{
    padding-left:150px;
+   position: absolute;
+   text-align: start;
+  
    width:30%;
+   z-index: 10;
 }
+
 #ra{
   font-size: 2em;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .second{
    
-    background-color:rgb(197, 194, 194);
+    background-color:rgba(212, 209, 209, 0.856);
     height:400px;
     width:70%;
-    display:flex
+    display:flex;
+    margin-left:26%;
+    margin-right: 30px;
+    
     
     
 }
 #ezhil{
-    Display:flex
+    Display:flex;
+    margin: 30px;
 }
 .second img{
-     margin:auto;
-     /* margin-left:50%; */
+    margin-top: -20px;
+    height:440px;
+    width: 300px;
+  box-shadow: 4px 5px #88888863;
+     margin-left:55%;
 }
